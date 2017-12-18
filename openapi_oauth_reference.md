@@ -2,7 +2,7 @@
 
 ### Authorization
 
-#### GET https://login.xref.com/authorize/:client_id/open
+#### GET https://login.xref.com/oauth/open-api/:client_id
 
 | Name  | Required? | Description |
 | ----- | --------- | ----------- |
