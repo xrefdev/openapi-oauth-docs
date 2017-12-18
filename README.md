@@ -50,7 +50,7 @@ The `client_secret` should not be shared.
 With these pieces of information on hand, you’re ready to have your end users connect to Xref within your platform. We recommend showing a Connect button that sends them to our authorize url endpoint. 
 
 ```
-https://login.xref.com/authorize/:client_id/open?state=UNIQUE_TOKEN
+https://login.xref.com/oauth/open-api/:client_id?state=UNIQUE_TOKEN
 ```
 
 To prevent CSRF attacks, you can use the `state` parameter, passing along a unique token as the value. We’ll include the `state` you gave us when we redirect back.
