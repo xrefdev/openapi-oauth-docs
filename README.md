@@ -88,7 +88,7 @@ You’re done! The end user has now authorized your platform to manage the accou
 
 ### Make API calls using user tokens
 
-You can now make requests to the [Xref Open API](https://xrefopenapi.docs.apiary.io) using the `access_token`.
+You can now make requests to the [Xref Open API](https://docs.xref.com/reference/) using the `access_token`.
 
 ```curl
 curl -X POST https://api-open.xref.com/auth \
